@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("https://thumbs.dreamstime.com/b/black-tic-tac-toe-game-icon-isolated-seamless-pattern-white-background-vector-black-tic-tac-toe-game-icon-isolated-seamless-197590372.jpg");
+  display: flex;
+  flex-direction: column;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    -webkit-text-stroke: 0.5px rgb(237, 242, 243);
+    
+}
+#main{
+    display: flex;
+    height:30rem;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+   
+
+
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+  
+    color: rgb(52, 179, 242);
+    border: px;
+    -webkit-text-stroke: 1.5px rgb(21, 21, 20);
+
+   
+}
+
+img{
+    height: 10rem;
+    margin: 0.5rem;
+    border-radius: 5%;
+    border: 2px solid;
+    box-shadow: 0 0 20px rgb(97, 120, 135);
+}
+
+img:hover{
+    box-shadow: 0 0 20px rgb(46, 47, 48);
+}

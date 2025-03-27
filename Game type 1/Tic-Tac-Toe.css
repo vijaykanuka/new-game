@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    cursor: default;
+    
+}
+body{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("https://static.vecteezy.com/system/resources/previews/002/423/122/non_2x/tic-tac-toe-icon-illustration-free-vector.jpg")
+}
+.main{
+    height: 13rem;
+    width: 13.5rem;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns:repeat(3,1fr) ;
+    row-gap: 2px;
+    column-gap: 2px;
+
+   
+  
+
+}
+.button{
+    background-color: rgba(252, 247, 247, 0.2);
+    border: 2px solid ;
+    text-align: center;
+    font-size: 2rem;
+    margin: 5px;
+    text-shadow: 2px 2px 2px rgb(235, 229, 229);
+  
+   
+} 
+
+#winner{
+
+    height: 30px;
+    width: 40%;
+    backdrop-filter: blur(7px);
+    border: 2px solid black;
+    margin: 10px; 
+    
+    padding-top: 15px;
+   text-align: center;
+    overflow: hidden;
+    color: rgb(7, 7, 8);
+    text-shadow: 1px 2px 5px white;
+    /* visibility: hidden; */
+  
+}
+#result{
+
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  
+    
+}
+
+
+label{
+    text-align: center;
+    color: rgb(7, 8, 8);
+    text-shadow: 2px 2px  #e1d9d9;
+    font-size: 20px;
+  
+}
+
+#player1,#player2,#tie{
+
+    height: 3.5rem;
+    width: 4rem;
+    border: 2px solid black;
+    backdrop-filter: blur(20px);
+    font-size: 40px;
+
+}
+#new{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+#NewGame,#restart{
+    height: 45px;
+    width: 150px;
+    border-radius: 20px;
+    background: linear-gradient(20deg,black,blue,white);
+    border: 2px solid black;
+    text-shadow: 2px 2px black;
+    font-size: 1rem;
+   color: antiquewhite;
+  
+}
+
+#NewGame:hover,#restart:hover{
+    border: 2px solid white;
+    box-shadow: 2px 2px 20px white;
+}
+
+#back{
+    height: 4rem;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    border-radius: 50%;
+}
